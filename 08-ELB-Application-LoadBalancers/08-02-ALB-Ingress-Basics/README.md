@@ -30,7 +30,7 @@
 - Create a basic ALB Ingress template. 
 - **05-ALB-Ingress-Basic.yml**
 ```yml
-# Annotations Reference:  https://kubernetes-sigs.github.io/aws-alb-ingress-controller/guide/ingress/annotation/
+# Annotations Reference:  https://kubernetes-sigs.github.io/aws-load-balancer-controller/v2.1/guide/ingress/annotations/
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
